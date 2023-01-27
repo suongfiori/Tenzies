@@ -116,7 +116,9 @@ export default function App() {
             {tenzies && <Confetti />}
 
             {tenzies ? 
-                <h1 class="congrats">You won!</h1> :
+                <h3 class="congrats blink-1 shake-bottom">
+                    You won!
+                </h3> :
                 <div className="game-intro">
                     <h1 className="title">Tenzies</h1>
                     <p className="instructions">Roll until all dice are the same.</p>
