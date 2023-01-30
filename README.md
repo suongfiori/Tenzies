@@ -14,7 +14,7 @@ The project implements a simple game logic where the player needs to roll the di
 
 - [x] Use of React hooks such as **`useState`** and **`useEffect`** to handle state and side effects respectively
 - [x] **`useEffect`** hook is used to handle the side effects such as checking if the game is won or not by checking the value of the dice and also **starting** and **stopping** the timer
-- [x] Conditional rendering is used to render different elements in JSX depending on the **state** of the game, whether it is **won** or **not**
+- [x] **`Conditional rendering`** is used to render different elements in JSX depending on the **state** of the game, whether it is **won** or **not**
 - [x] **`map()`** method is used to iterate over the dice array and create JSX elements for each die
 - [x] **`setInterval()`** and **`clearInterval()`** are used to **create** and **stop** the timer respectively
 - [x] Use of **`nanoid`** library to generate unique ids for each die.
