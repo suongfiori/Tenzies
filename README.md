@@ -26,7 +26,7 @@ The project implements a simple game logic where the player needs to roll the di
 
 ### Possible ideas for project enhancing
 
-- [ ] Improving *User Interface*: adding animations, sound effects, more visually appealing (reall dots on the dice).
+- [ ] Improving *User Interface*: reall dots on the dice:white_check_mark: , animations, sound effects.
 - [ ] Adding *instructions*: more detailed instructions on how to play.
 - [ ] Adding more *game modes*: time-based challenges / points-based challenges.
 - [ ] Adding a *leaderboard*: track the high scores of players and make the game more competitive.
