@@ -1,4 +1,8 @@
 ## TENZIES GAME
+
+<h3>Live Demo</h3> https://dazzling-sopapillas-1a581a.netlify.app/ 
+<br><br>
+
 The project implements a simple game logic where the player needs to roll the dice until all of them have the same value
 
 ### Technologies used
