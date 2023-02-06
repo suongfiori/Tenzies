@@ -1,19 +1,19 @@
 import React, {useState, useEffect} from "react"
 import Die from "./components/Die"
 import Time from "./components/Time"
+import { BestScoreDisplay } from "./components/BestScoreDisplay"
 import {nanoid} from "nanoid"
 import Confetti from "react-confetti"
 
 export default function App() {
 
-// State for the dice array, whether the game is won, whether the game is running,
-//  the timer, and the roll count
-
+    const storedBestScore = JSON.parse(localStorage.getItem('bestScore')) || null;
     const [dice, setDice] = useState(allNewDice())
     const [tenzies, setTenzies] = useState(false)
     const [running, setRunning] = useState(false)
     const [timer, setTimer] = useState(0)
     const [count, setCount] = useState(0)
+    const [bestScore, setBestScore] = useState(storedBestScore)  
 
  // Effect to check if the game is won or not
     useEffect(() => {
@@ -32,8 +32,16 @@ export default function App() {
         if (allHeld && allSameValue) {
             setRunning(false)
             setTenzies(true)
-        } 
-    }, [dice])
+
+        // determine user's best time score
+        if (!storedBestScore || timer < storedBestScore) {
+            localStorage.setItem('bestScore', JSON.stringify(timer));
+            setBestScore(timer);
+        } else {
+            setBestScore(storedBestScore);
+        }
+        }
+    }, [dice, bestScore, storedBestScore, timer])
 
 // Effect to start and stop the timer
 
@@ -128,7 +136,8 @@ export default function App() {
 
             <div className="stats-board">
                 <Time timer={timer}/>
-                <h3 className="count">Rolls: {count}</h3>
+                <BestScoreDisplay bestScore={bestScore} />
+                <h4 className="count">Number of rolls: {count}</h4>
             </div>
             <div className="dice-container">
                 {diceElements}

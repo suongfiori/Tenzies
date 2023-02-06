@@ -5,8 +5,8 @@ export default function Time (props) {
     const seconds = ("0" + props.timer % 60).slice(-2)
 
     return (
-        <div className="timer">
-            <h3>{minutes} : {seconds}</h3>  
+        <div >
+            <h4>Current: <span className="timer">{minutes} : {seconds}</span></h4>  
         </div>
     )
 }
