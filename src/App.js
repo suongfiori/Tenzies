@@ -7,13 +7,15 @@ import Confetti from "react-confetti"
 
 export default function App() {
 
-    const storedBestScore = JSON.parse(localStorage.getItem('bestScore')) || null;
     const [dice, setDice] = useState(allNewDice())
     const [tenzies, setTenzies] = useState(false)
     const [running, setRunning] = useState(false)
     const [timer, setTimer] = useState(0)
     const [count, setCount] = useState(0)
-    const [bestScore, setBestScore] = useState(storedBestScore)  
+
+// Initialize bestScore state with value retrieved from local storage or set to null
+    const storedBestScore = JSON.parse(localStorage.getItem('bestScore')) || null; 
+    const [bestScore, setBestScore] = useState(storedBestScore) 
 
  // Effect to check if the game is won or not
     useEffect(() => {
@@ -137,7 +139,10 @@ export default function App() {
             <div className="stats-board">
                 <Time timer={timer}/>
                 <BestScoreDisplay bestScore={bestScore} />
-                <h4 className="count">Number of rolls: {count}</h4>
+                <div className="count">
+                    <h4>Rolls count </h4>
+                    <span>{count}</span>
+                </div>
             </div>
             <div className="dice-container">
                 {diceElements}

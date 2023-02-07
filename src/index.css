@@ -5,9 +5,8 @@
 
 body {
   height: 100%;
-  margin: 0;
   background-color: #0B2434;
-  padding: 20px;
+  padding: 1rem;
   font-family: 'Karla', sans-serif;
 }
 
@@ -19,7 +18,7 @@ main {
   height: 450px;
   max-width: 800px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -50,22 +49,22 @@ main {
 .die-face {
   padding: 4px;
   object-fit: contain;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   cursor: pointer;
   box-shadow:
-    inset 0 4px white, 
-    inset 0 -4px #bbb,
-    inset 4px 0 #d7d7d7, 
-    inset -4px 0 #d7d7d7;
+    inset 0 3px white, 
+    inset 0 -3px #bbb,
+    inset 3px 0 #d7d7d7, 
+    inset -3px 0 #d7d7d7;
 }
 
 .dice {
-	width: 4em;
+	width: 4.5rem;
 }
 
 /* Styling dice face with dots */
@@ -138,7 +137,7 @@ main {
 
 .roll-dice {
   height: 50px;
-  width: 150px;
+  width: 120px;
   border: none;
   border-radius: 6px;
   background-color: #5035FF;
@@ -159,10 +158,15 @@ main {
 /* Stats board */
 
 .stats-board {
-  display: flex;
-  flex-direction: row;
-  column-gap: 3rem;
-  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0.6rem;
 }
 
 /* Game winning */
@@ -174,6 +178,7 @@ background-color: rgb(215, 155, 5);
 border-radius: 10px;
 color: #F5F5F5;
 }
+
 .blink-1 {
 	-webkit-animation: blink-1 2s both;
 	        animation: blink-1 2s both;
@@ -192,14 +197,8 @@ color: #F5F5F5;
   font-size: 0.8rem;
 }
 
-/* .count  {
- color: rgb(170, 114, 11);
-} */
-
-@media only screen and (max-width: 600px) {
-  main {
-    max-width: 350px;
-  }
+.count  {
+ font-weight: 700;
 }
 
 @-webkit-keyframes blink-1 {
@@ -291,6 +290,16 @@ color: #F5F5F5;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    max-width: 350px;
+    font-size: 0.7rem;
+  }
+  .title{
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
 	.container {
 		width: 100vw;
@@ -301,6 +310,6 @@ color: #F5F5F5;
 	}
 
 	.dice-container {
-		gap: 5px;
+		gap: 10px;
 	}
 }
