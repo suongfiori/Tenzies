@@ -26,12 +26,13 @@ The project implements a simple game logic where the player needs to roll the di
 
 ### Possible ideas for project enhancing
 
-- [ ] Improving *User Interface*: reall dots on the dice:white_check_mark: ,animations, sound effects.
+- [ ] Improving *User Interface*: reall dots on the dice:white_check_mark:, animations, sound effects.
 - [x] Adding a *leaderboard*: track the high scores of players and make the game more competitive :white_check_mark:
+- [x] Improving *mobile compatibility* :white_check_mark:
 - [ ] Adding *instructions*: more detailed instructions on how to play.
 - [ ] Adding more *game modes*: time-based challenges / points-based challenges.
 - [ ] Adding a *multiplayer mode*: players can compete against each other online.
-- [ ] Improving *mobile compatibility*.
+
 - [ ] Adding *save and resume feature*: allow players to save their progress and resume later on.
 
 
