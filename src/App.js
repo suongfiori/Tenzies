@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react"
 import Die from "./components/Die"
 import Time from "./components/Time"
-import { BestScoreDisplay } from "./components/BestScoreDisplay"
 import {nanoid} from "nanoid"
 import Confetti from "react-confetti"
 
@@ -137,8 +136,15 @@ export default function App() {
             }
 
             <div className="stats-board">
-                <Time timer={timer}/>
-                <BestScoreDisplay bestScore={bestScore} />
+                <Time 
+                    time={timer} 
+                    type="timer"
+                />
+                   
+                <Time 
+                    time={bestScore} 
+                    type="bestScore"
+                />
                 <div className="count">
                     <h4>Rolls count </h4>
                     <span>{count}</span>
