@@ -15,7 +15,7 @@ The project implements a simple game logic where the player needs to roll the di
 <img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot_1.png" width="60%"> <br><br>
 <img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot.png" width="60%">
 
-### Topics covered
+### Concepts I learned:
 
 - [x] Use of React hooks such as **`useState`** and **`useEffect`** to handle state and side effects respectively
 - [x] **`useEffect`** hook is used to handle the side effects such as checking if the game is won or not by checking the value of the dice and also **starting** and **stopping** the timer
