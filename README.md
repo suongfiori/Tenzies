@@ -12,8 +12,8 @@ The project implements a simple game logic where the player needs to roll the di
  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Features
-<img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot_1.png" width="70%"> <br><br>
-<img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot.png" width="70%">
+<img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot_1.png" width="80%"> <br><br>
+<img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot.png" width="80%">
 
 ### Concepts I learned:
 
