@@ -6,7 +6,8 @@ export default function Time (props) {
 
     return (
         <div >
-            <h4>Current: <span className="timer">{minutes} : {seconds}</span></h4>  
+            <h4>Current</h4>
+            <span className="timer">{minutes} : {seconds}</span>  
         </div>
     )
 }

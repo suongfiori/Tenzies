@@ -5,7 +5,8 @@ export const BestScoreDisplay = ({ bestScore }) => {
     const seconds = ("0" + bestScore % 60).slice(-2)
   return (
     <div className='best-score'>
-         <h4>Your best time: <span className='best-time'>{minutes} : {seconds}</span></h4>
+        <h4>Your best</h4>
+        <span className='best-time'>{minutes} : {seconds}</span>
     </div>
   )
 }
