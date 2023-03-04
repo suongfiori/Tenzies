@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/57d83480-66d0-4e6d-90a5-ba7d9cccc867/deploy-status)](https://app.netlify.com/sites/shimmering-caramel-05f0d6/deploys)
 <br>
-https://dazzling-sopapillas-1a581a.netlify.app/ 
+Live game [here](https://dazzling-sopapillas-1a581a.netlify.app/)
 
 
 The project implements a simple game logic where the player needs to roll the dice until all of them have the same value
