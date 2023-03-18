@@ -136,13 +136,12 @@ main {
 /* Dice rolling */
 
 .roll-dice {
-  height: 50px;
-  width: 120px;
+  padding: .8em 2.5em;
   border: none;
   border-radius: 6px;
-  background-color: #5035FF;
+  background: #5035FF url("../images/dice.svg") no-repeat left .5em center;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: 'Karla', sans-serif;
   cursor: pointer;
 }
@@ -297,6 +296,9 @@ color: #F5F5F5;
   }
   .title{
     font-size: 2rem;
+  }
+  .roll-dice {
+    font-size: 1rem;
   }
 }
 
