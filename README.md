@@ -1,10 +1,6 @@
 ## TENZIES GAME
 
-<h3>Live Demo</h3> 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57d83480-66d0-4e6d-90a5-ba7d9cccc867/deploy-status)](https://app.netlify.com/sites/shimmering-caramel-05f0d6/deploys)
-<br>
-Live game [here](https://dazzling-sopapillas-1a581a.netlify.app/)
+[Live Deployment Link](https://dazzling-sopapillas-1a581a.netlify.app/)
 
 
 The project implements a simple game logic where the player needs to roll the dice until all of them have the same value
@@ -18,7 +14,7 @@ The project implements a simple game logic where the player needs to roll the di
 <img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot_1.png" width="80%"> <br><br>
 <img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot.png" width="80%">
 
-### Concepts I learned:
+ <!-- ### Concepts I learned:
 
 - [x] State Management
 - [x] Components
@@ -31,16 +27,22 @@ The project implements a simple game logic where the player needs to roll the di
 - [x] **`Conditional Rendering`** is used to render different elements in JSX depending on the **state** of the game, whether it is **won** or **not**
 - [x] **`map()`** method is used to iterate over the dice array and create JSX elements for each die
 - [x] **`setInterval()`** and **`clearInterval()`** are used to **create** and **stop** the timer respectively
-- [x] Use of **`nanoid`** library to generate unique ids for each die.
+- [x] Use of **`nanoid`** library to generate unique ids for each die. --!>
 
 ### Possible ideas for project enhancing
 
 - [ ] Improving *User Interface*: reall dots on the dice:white_check_mark:, animations, sound effects.
+
 - [x] Adding a *leaderboard*: track the high scores of players and make the game more competitive :white_check_mark:
+
 - [x] Improving *mobile compatibility* :white_check_mark:
+
 - [ ] Adding *instructions*: more detailed instructions on how to play.
+
 - [ ] Adding more *game modes*: time-based challenges / points-based challenges.
+
 - [ ] Adding a *multiplayer mode*: players can compete against each other online.
+
 - [ ] Adding *save and resume feature*: allow players to save their progress and resume later on.
 
 
