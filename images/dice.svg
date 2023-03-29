@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="25" height="25" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="2%" height="2%" fill="#ffffff"/>
+<g transform="matrix(1.9176 0 0 1.9176 540.0003 540.0003)" id="304312">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 149.3355 -149.3335)" id="Layer_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" translate(-405.3375, -106.6685)" d="M 468.975 0.002 H 341.7 c -23.771 0 -43.029 19.258 -43.029 43.029 v 127.275 c 0 23.771 19.258 43.029 43.029 43.029 h 127.275 c 23.771 0 43.029 -19.258 43.029 -43.029 V 43.031 C 512.004 19.26 492.746 0.002 468.975 0.002 z M 469.338 170.306 c 0 0.207 -0.155 0.363 -0.363 0.363 H 341.7 c -0.207 0 -0.363 -0.155 -0.363 -0.363 V 43.031 c 0 -0.207 0.155 -0.363 0.363 -0.363 h 127.275 c 0.207 0 0.363 0.155 0.363 0.363 V 170.306 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 149.331 -149.334)" id="Layer_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" translate(-405.333, -106.668)" d="M 405.333 85.335 c -11.776 0 -21.333 9.557 -21.333 21.333 s 9.557 21.333 21.333 21.333 s 21.333 -9.557 21.333 -21.333 S 417.109 85.335 405.333 85.335 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 -1.8821 85.3335)" id="Layer_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" translate(-254.1199, -341.3355)" d="M 399.032 265.921 l -54.092 54.073 h -28.602 c 2.373 -6.678 3.666 -13.859 3.666 -21.333 c 0 -35.249 -28.751 -64 -64 -64 H 152.796 L 128 226.403 v -34.401 c 0 -11.782 -9.551 -21.333 -21.333 -21.333 H 21.333 C 9.551 170.669 0 180.22 0 192.002 v 298.667 c 0 11.782 9.551 21.333 21.333 21.333 h 85.333 c 11.782 0 21.333 -9.551 21.333 -21.333 v -21.342 h 127.066 c 60.397 0 119.538 -17.22 170.512 -49.648 l 3.637 -2.917 l 60.331 -60.352 c 24.927 -24.895 24.927 -65.568 -0.003 -90.498 C 464.612 240.981 423.94 240.981 399.032 265.921 z M 85.333 469.336 H 42.667 v -256 h 42.667 V 469.336 z M 459.382 326.232 l -58.654 58.674 c -43.686 27.281 -94.146 41.754 -145.663 41.754 H 128.004 V 271.375 l 14.593 4.86 c 2.173 0.724 4.449 1.093 6.74 1.093 h 106.667 c 11.685 0 21.333 9.649 21.333 21.333 c 0 11.685 -9.649 21.333 -21.333 21.333 c -28.444 0 -28.444 42.667 0 42.667 h 97.771 c 5.657 0 11.082 -2.247 15.082 -6.246 l 60.352 -60.331 c 8.257 -8.267 21.899 -8.267 30.163 -0.003 S 467.637 317.988 459.382 326.232 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>
