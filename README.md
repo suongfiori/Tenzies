@@ -11,7 +11,7 @@ The project implements a simple game logic where the player needs to roll the di
  <br>
  
 ### Features
-<img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot_1.png" width="80%"> <br><br>
+<img src="https://github.com/suongfiori/Tenzies/blob/master/images/screenshot_1.png?raw=true" width="80%"> <br><br>
 <img src="https://github.com/suongfiori/tenzies/blob/master/images/screenshot.png" width="80%">
 
 ### Possible ideas for project enhancing
