@@ -1,6 +1,6 @@
 ## TENZIES GAME
 
-[Live Deployment Link](https://dazzling-sopapillas-1a581a.netlify.app/)
+[Live Deployment Link](https://tenzies-ryal.vercel.app/)
 
 
 The project implements a simple game logic where the player needs to roll the dice until all of them have the same value
